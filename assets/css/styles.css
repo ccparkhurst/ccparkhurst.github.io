@@ -1,4 +1,4 @@
-/*   
+/*
  * Template Name: Developer - Responsive Website Template for Developers
  * Version: 1.5
  * Author: Xiaoying Riley
@@ -353,6 +353,13 @@ iframe {
 .info li:last-child {
   margin-bottom: 0;
 }
+#phone-show {
+  display: none;
+}
+
+#phone-hide:hover #phone-show {
+  display: inline;
+}
 /* Skills Section */
 .skills .intro {
   margin-bottom: 30px;
@@ -534,6 +541,8 @@ iframe {
     margin-bottom: 15px;
   }
 }
+
+
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
